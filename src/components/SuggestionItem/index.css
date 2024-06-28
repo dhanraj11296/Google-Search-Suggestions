@@ -1,0 +1,26 @@
+.suggestionItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  list-style-type: none;
+}
+.suggestionText {
+  color: #475569;
+  font-size: 15px;
+  margin: 0;
+}
+.arrowButton {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.arrow {
+  height: 25px;
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  .suggestionText {
+    font-size: 25px;
+  }
+}
